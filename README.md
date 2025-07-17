@@ -28,6 +28,7 @@ pip install pyinstaller
 •	youtubelogo.ico — your app icon
 3. Build the executable:
 pyinstaller --noconfirm --onefile --windowed --icon=youtubelogo.ico --add-data "youtubelogo.ico;." --add-data "ffmpeg.exe;." youtube_gui.py
+
 After the build, the file youtube_gui.exe will appear in the dist folder.
 
 
